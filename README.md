@@ -16,7 +16,7 @@ This repository implements a neural machine translation (NMT) model for translat
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-<img src="neural-attention-mechanism.png" alt="Alt Text" width="400"/>
+<img src="transformer-images/neural-attention-mechanism.png" alt="Attention Mechanism" width="400"/>
 
 ## [Dataset](#dataset)
 
@@ -45,9 +45,9 @@ The translation data is preprocessed to prepare it for training. This includes s
   - The dataset is split into training and validation sets using the `train_test_split` function.
   - This ensures that the model is trained on one subset of the data and evaluated on another, facilitating the assessment of its generalization performance.
 
-<img src="transformer-encoder.png" alt="Alt Text" width="400"/>
+<img src="transformer-images/transformer-encoder.png" alt="Encoder and Decoder" width="400"/>
 
-<img src="transformer-ff-self-cross-attention.png" alt="Alt Text" width="400"/>
+<img src="transformer-images/transformer-ff-self-cross-attention.png" alt="Feed Forward, Self Attention, Cross Attention" width="400"/>
 
 ## [Model Architecture](#model-architecture)
 
@@ -74,7 +74,7 @@ The neural machine translation model is built upon a custom Transformer architec
   - Encoder layers consist of self-attention and feedforward components.
   - Decoder layers include self-attention, cross-attention, and feedforward components.
 
-<img src="transformer-multihead-scaleddotproduct.png" alt="Alt Text" width="400"/>
+<img src="transformer-images/transformer-multihead-scaleddotproduct.png" alt="Multi-Head Attention, Scaled Dot Product" width="400"/>
 
 ## [Training](#training)
 
@@ -111,7 +111,6 @@ The configuration and optimization of the neural machine translation model invol
 - **Early Stopping**
   - Validation metrics are monitored, and training may be halted early if the model's performance on the validation set does not improve, preventing overfitting.
 
-
 ## [Training Progress Plotting](#training-progress-plotting)
 
 A function is provided to plot the training progress, displaying training and validation loss as well as accuracy over epochs.
@@ -131,8 +130,6 @@ The trained model is loaded from a checkpoint, and translations are generated fo
 
 - **User Input Translation**
   - Users can input English sentences for real-time translation using the trained model.
-
-
 
 ## [Usage](#usage)
 
@@ -162,14 +159,14 @@ Download and install the cuDNN library from the [NVIDIA cuDNN Download Page](htt
 
 After installation, verify that CUDA is set up correctly by running the following command in your terminal:
 
-```bash
+- ```bash
 - nvcc --version
 
 ### 5. Set up VENV and CUDA
 
-Follow the steps below to set up and activate a virtual environment for your CUDA-compatible translation model.
+Follow the steps below to set up and activate a virtual environment for your CUDA-compatible translation model:
 
-```bash
+- ```bash
 
 - cd `GPT-Translation-Model`
 
@@ -183,11 +180,13 @@ Follow the steps below to set up and activate a virtual environment for your CUD
 
 - python -m ipykernel install --user --name=cuda --display-name "cuda-translator"
 
-in jupyter notebook switch the kernel to `cuda translator`
+in jupyter notebook switch the kernel to `cuda-translator`
 
 ### 6. Verify GPU Availability
 
-```bash
+Follow the steps below to verify GPU/Cuda Availability:
+
+- ```bash
 
 - import torch
 - print(torch.cuda.is_available())
@@ -196,7 +195,10 @@ If the output is True, your GPU is successfully configured for PyTorch.
 
 ## [Dependencies](#dependencies)
 
-pip install -r requirements.txt
+Install all of the required libraries:
+
+- ```bash
+- pip install -r requirements.txt
 
 ## [License](#license)
 
