@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ipykernel==6.0.4
 torch==1.10.0
 torchvision==0.11.1
@@ -30,4 +29,4 @@ scikit-learn==0.24.2
 tqdm==4.62.3
 matplotlib==3.4.3
 torchtext==0.9.1
->>>>>>> f1f2c019569079af85fd418d2bc30fbc8afcd668
+
