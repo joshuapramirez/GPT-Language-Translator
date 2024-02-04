@@ -17,7 +17,9 @@ This repository implements a neural machine translation (NMT) model for translat
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-<img src="transformer-images/neural-attention-mechanism.png" alt="Attention Mechanism" width="400"/>
+<p align="center">
+  <img src="transformer-images/neural-attention-mechanism.png" alt="Attention Mechanism" width="800"/>
+</p>
 
 ## [Dataset](#dataset)
 
@@ -46,9 +48,13 @@ The translation data is preprocessed to prepare it for training. This includes s
   - The dataset is split into training and validation sets using the `train_test_split` function.
   - This ensures that the model is trained on one subset of the data and evaluated on another, facilitating the assessment of its generalization performance.
 
-<img src="transformer-images/transformer-encoder.png" alt="Encoder and Decoder" width="400"/>
+<p align="center">
+  <img src="transformer-images/transformer-encoder.png" alt="Encoder and Decoder" width="800"/>
+</p>
 
-<img src="transformer-images/transformer-ff-self-cross-attention.png" alt="Feed Forward, Self Attention, Cross Attention" width="400"/>
+<p align="center">
+  <img src="transformer-images/transformer-ff-self-cross-attention.png" alt="Feed Forward, Self Attention, Cross Attention" width="800"/>
+</p>
 
 ## [Model Architecture](#model-architecture)
 
@@ -75,7 +81,9 @@ The neural machine translation model is built upon a custom Transformer architec
   - Encoder layers consist of self-attention and feedforward components.
   - Decoder layers include self-attention, cross-attention, and feedforward components.
 
-<img src="transformer-images/transformer-multihead-scaleddotproduct.png" alt="Multi-Head Attention, Scaled Dot Product" width="400"/>
+<p align="center">
+  <img src="transformer-images/transformer-multihead-scaleddotproduct.png" alt="Multi-Head Attention, Scaled Dot Product" width="800"/>
+</p>
 
 ## [Training](#training)
 
