@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # English to Portuguese Neural Machine Translation using Transformer
 
 This repository implements a neural machine translation (NMT) model for translating English sentences into Portuguese using the Transformer architecture. The model is trained on a parallel English-Portuguese dataset, and the code includes functionalities for training, evaluation, and real-time translation.
@@ -16,10 +15,6 @@ This repository implements a neural machine translation (NMT) model for translat
 - [Dependencies](#dependencies)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-
-<p align="center">
-  <img src="transformer-images/neural-attention-mechanism.png" alt="Attention Mechanism" width="800"/>
-</p>
 
 ## [Dataset](#dataset)
 
@@ -48,12 +43,12 @@ The translation data is preprocessed to prepare it for training. This includes s
   - The dataset is split into training and validation sets using the `train_test_split` function.
   - This ensures that the model is trained on one subset of the data and evaluated on another, facilitating the assessment of its generalization performance.
 
-<p align="center">
-  <img src="transformer-images/transformer-encoder.png" alt="Encoder and Decoder" width="800"/>
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="transformer-images/neural-attention-mechanism.png" alt="Attention Mechanism" width="600"/>
 </p>
 
-<p align="center">
-  <img src="transformer-images/transformer-ff-self-cross-attention.png" alt="Feed Forward, Self Attention, Cross Attention" width="800"/>
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="transformer-images/transformer-encoder.png" alt="Encoder and Decoder" width="650"/>
 </p>
 
 ## [Model Architecture](#model-architecture)
@@ -81,8 +76,12 @@ The neural machine translation model is built upon a custom Transformer architec
   - Encoder layers consist of self-attention and feedforward components.
   - Decoder layers include self-attention, cross-attention, and feedforward components.
 
-<p align="center">
-  <img src="transformer-images/transformer-multihead-scaleddotproduct.png" alt="Multi-Head Attention, Scaled Dot Product" width="800"/>
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="transformer-images/transformer-ff-self-cross-attention.png.png" alt="Multi-Head Attention, Scaled Dot Product" width="500"/>
+</p>
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="transformer-images/transformer-multihead-scaleddotproduct.png" alt="Multi-Head Attention, Scaled Dot Product" width="700"/>
 </p>
 
 ## [Training](#training)
