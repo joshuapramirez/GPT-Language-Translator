@@ -44,7 +44,7 @@ The translation data is preprocessed to prepare it for training. This includes s
   - This ensures that the model is trained on one subset of the data and evaluated on another, facilitating the assessment of its generalization performance.
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <img src="transformer-images/neural-attention-mechanism.png" alt="Attention Mechanism" width="600"/>
+  <img src="transformer-images/neural-attention-mechanism.gif" alt="Attention Mechanism" width="600"/>
 </p>
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
@@ -77,7 +77,7 @@ The neural machine translation model is built upon a custom Transformer architec
   - Decoder layers include self-attention, cross-attention, and feedforward components.
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <img src="transformer-images/transformer-ff-self-cross-attention.png.png" alt="Multi-Head Attention, Scaled Dot Product" width="500"/>
+  <img src="transformer-images/transformer-ff-self-cross-attention.png" alt="Multi-Head Attention, Scaled Dot Product" width="500"/>
 </p>
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
