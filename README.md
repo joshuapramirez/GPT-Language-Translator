@@ -145,7 +145,7 @@ Clone the repository and follow the instructions in the code comments to set up 
 
 - Use the following command to clone the repository to your local machine:
    ```bash
-   git clone https://github.com/joshuapramirez/GPT-Translator-Model
+   git clone https://github.com/joshuapramirez/GPT-Language-Translator
 
 ## [Set Up VENV and CUDA for GPU Acceleration](#setup-venv)
 
@@ -173,7 +173,7 @@ Download and install the cuDNN library from the [NVIDIA cuDNN Download Page](htt
 
 - Follow the steps below to set up and activate a virtual environment for your CUDA-compatible translation model:
   ```bash
-  cd `GPT-Translation-Model`
+  cd `GPT-Language-Translator`
 
   python -m venv cuda
 
